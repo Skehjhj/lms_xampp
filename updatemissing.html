@@ -1,0 +1,33 @@
+<!-- scholarshipstudent.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management</title>
+  <link rel="stylesheet" href="updatemissing.css">
+</head>
+<body>
+  <header>
+    <h1>Enter time to check and update missing students' works</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="addstuwork.html">Add new Students' Work</a></li>
+      <li><a href="deletework.html">Delete Students' Work</a></li>
+      <li><a href="updatestuwork.html">Update Students' Work</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form action="updatemissing.php" method="post">
+      <fieldset>
+        <div class="form-group">
+          <label for="CurDATE">Enter Time:</label>
+          <input type="text" id="CurDATE" name="CurDATE" required placeholder="YY-MM-DD">
+        </div>
+        <button type="submit">Enter time</button>
+      </fieldset>
+    </form>
+  </main>
+</body>
+</html>

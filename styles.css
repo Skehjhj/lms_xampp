@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Vertical Menu Styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px; /* adjust the width as needed */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+nav li {
+  margin-bottom: 1px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+nav a:active {
+  background-color: #666;
+  color: #fff;
+}

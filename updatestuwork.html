@@ -1,0 +1,39 @@
+<!-- add_professor.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Students' Work</title>
+  <link rel="stylesheet" href="update.css">
+</head>
+<body>
+  <main>
+    <h1>Update Students' Work</h1>
+    <section>
+      <form action="updatestuwork.php" method="post">
+        <fieldset aria-label="Student Information">
+          <legend>Student Information</legend>
+          <label for="StuID">Student ID:</label>
+          <input type="text" id="StuID" name="StuID" required>
+          <br>
+          <label for="TestID">Test ID:</label>
+          <input type="text" id="TestID" name="TestID" required>
+          <br>
+          <label for="TimesID">Times ID:</label>
+          <input type="text" id="TimesID" name="TimesID" required>
+        </fieldset>
+        <fieldset aria-label="Student's Work">
+          <legend>Student's Work</legend>
+          <label for="StuWork">Student's Work:</label>
+          <input type="text" id="StuWork" name="StuWork">
+          <br>
+          <label for="Score">Score:</label>
+          <input type="text" id="Score" name="Score" required>
+        </fieldset>
+        <button type="submit">Update Student's Work</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

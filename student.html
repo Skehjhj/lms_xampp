@@ -1,0 +1,30 @@
+<!-- scholarshipstudent.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student</title>
+  <link rel="stylesheet" href="add.css">
+</head>
+<body>
+  <header>
+    <h1>Enter Semester ID and Student ID</h1>
+  </header>
+  <main>
+    <section class="form-container">
+      <form action="scholarshipstudent.php" method="post">
+        <div class="form-group">
+          <label for="SemesterID">Semester ID:</label>
+          <input type="text" id="SemesterID" name="SemesterID" required>
+        </div>
+        <div class="form-group">
+          <label for="StuID">Student ID:</label>
+          <input type="text" id="StuID" name="StuID" required>
+        </div>
+        <button type="submit">Enter semester</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

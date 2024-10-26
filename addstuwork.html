@@ -1,0 +1,42 @@
+<!-- add_professor.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add new Students' Work</title>
+  <link rel="stylesheet" href="add.css">
+</head>
+<body>
+  <header>
+    <h1>Add new Students' Work</h1>
+  </header>
+  <main>
+    <section class="form-container">
+      <form action="addstuwork.php" method="post">
+        <div class="form-group">
+          <label for="StuID">Student ID:</label>
+          <input type="text" id="StuID" name="StuID" required>
+        </div>
+        <div class="form-group">
+          <label for="TestID">Test ID:</label>
+          <input type="text" id="TestID" name="TestID" required>
+        </div>
+        <div class="form-group">
+          <label for="TimesID">Times ID:</label>
+          <input type="text" id="TimesID" name="TimesID" required>
+        </div>
+        <div class="form-group">
+          <label for="StuWork">Student's Work:</label>
+          <input type="text" id="StuWork" name="StuWork">
+        </div>
+        <div class="form-group">
+          <label for="Score">Score:</label>
+          <input type="text" id="Score" name="Score" required>
+        </div>
+        <button type="submit">Add Student's Work</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete Student's Work</title>
+  <link rel="stylesheet" href="add.css">
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Nhap bai kiem tra</h1>
+      <form action="deletework.php" method="post">
+        <div class="form-group">
+          <label for="StuID">Student ID:</label>
+          <input type="text" id="StuID" name="StuID" required>
+        </div>
+        <div class="form-group">
+          <label for="TestID">Test ID:</label>
+          <input type="text" id="TestID" name="TestID" required>
+        </div>
+        <div class="form-group">
+          <label for="TimesID">Time:</label>
+          <input type="text" id="TimesID" name="TimesID" required>
+        </div>
+        <button type="submit">Enter</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
